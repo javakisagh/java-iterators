@@ -1,7 +1,11 @@
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Generated Files and Folders #
+build/
+.gradle/
+
+# Temp Files #
+*~
 
 # Package Files #
 *.jar
