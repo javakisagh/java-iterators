@@ -26,7 +26,8 @@ public class MyListTest {
         assertEquals(1,numberOfIterations);
     }
 
-    @Test void iterateOverListWithSeveralDifferentElements() {
+    @Test 
+    public void iterateOverListWithSeveralDifferentElements() {
         //setup:
         Object[] elements = new Object[] {"str","obj","wuk"};
         MyList list = MyList.fromList(elements);
