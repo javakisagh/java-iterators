@@ -28,7 +28,7 @@ public class MyListTest {
 
     @Test 
     public void iterateOverListWithSeveralDifferentElements() {
-        //setup:
+      //setup:
         Object[] elements = new Object[] {"str","obj","wuk"};
         MyList list = MyList.fromList(elements);
         int numberOfIterations = 0;
